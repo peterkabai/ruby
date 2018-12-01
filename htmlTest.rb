@@ -1,4 +1,4 @@
-fileHtml = File.new("htmlTest.html", "w+")
+fileHtml = File.new("html/htmlTest.html", "w+")
 
 time = Time.new
 
@@ -9,9 +9,9 @@ fileHtml.puts "</head>"
 fileHtml.puts "<body>"
 fileHtml.puts "Hello, World!"
 fileHtml.puts "<br/>"
-fileHtml.puts "Year:"  , time.year
+fileHtml.puts "Year:", time.year
 fileHtml.puts "<br/>"
-fileHtml.puts "Month:" , time.month
+fileHtml.puts "Month:", time.month
 fileHtml.puts "</body>"
 fileHtml.puts "</html>"
 
